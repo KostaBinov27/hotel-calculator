@@ -1,0 +1,76 @@
+.sidewrap, .inputWrap, .innerWrapSlider{
+    display: flex;
+}
+.sliderWrap, .personWrap{
+    margin-top: 20px;
+}
+.sidewrap{
+    margin: 50px 0;
+}
+
+.lside{
+    width: 70%;
+    padding: 20px 10px;
+    background: #f0f0f0;
+}
+.rside{
+    width: 30%;
+    background: #8bc34a6e;
+    text-align: center;
+    padding: 40px 10px;
+}
+.linput, .rinput{
+    width: 50%;
+    padding: 0 15px 0 0;
+}
+.linput input, .rinput input{
+    width: 100%;
+    border: 1px solid #fff;
+}
+.personWrap input{
+    width: 50%;
+}
+
+.labelPeople{
+    display: block;
+}
+
+#slider{
+    width: 90%;
+    margin-right: 10px;
+    margin-top: 9px;
+    margin-left: 10px;
+}
+#maxNumberOfDays{
+    width: 9%;
+    border: 0;
+}
+
+.d-none{
+    display: none !important;
+}
+
+#numberOfPersons {
+    border: 1px solid #fff;
+    padding-left: 25px !important;
+    background: url(https://www.pinclipart.com/picdir/middle/133-1332476_crowd-of-users-transparent-user-icon-png-clipart.png) no-repeat left;
+    background-size: 17px;
+    background-color: #fff;
+}
+
+#perPersonTotals, #totalT{
+    color: #116614;
+    font-size: 22px;
+}
+
+.perPerson p{
+    font-weight: 600;
+    font-size: 14px;
+}
+
+#datepickerFrom, #datepickerTo{
+    padding-left: 25px;
+    background: url(https://www.seekpng.com/png/full/763-7637205_blank-calendar-icon-png-white-transparent-calendar-icon.png) no-repeat left;
+    background-size: 17px;
+    background-color: #fff;
+}
